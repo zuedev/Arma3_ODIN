@@ -1,0 +1,33 @@
+name = "Orbital Defense and Intelligence Network"
+prefix = "odin"
+author = "zuedev"
+mainprefix = "z"
+
+[files]
+exclude = [
+    ".hemtt",
+    ".gitattributes",
+    ".gitignore",
+    "odin.png",
+]
+include = [
+    "odin.paa",
+    "README.md",
+]
+
+[version]
+major = 0
+minor = 0
+patch = 0
+git_hash = 8
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3
+]
+
+[hemtt.launch.dev]
+extends = "default"
+workshop = [
+    "2369477168", # Advanced Developer Tools
+]

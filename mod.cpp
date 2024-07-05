@@ -1,0 +1,12 @@
+name = "Orbital Defense and Intelligence Network 0.0.0";
+picture = "odin.paa";
+actionName = "GitHub";
+action = "https://github.com/zuedev/Arma3_ODIN";
+description = "ODIN - Version 0.0.0";
+logo = "odin.paa";
+logoOver = "odin.paa";
+tooltip = "ODIN";
+tooltipOwned = "ODIN Owned";
+overview = "The hyper-advanced military support system currently orbiting Earth 🌍🛰️";
+author = "zuedev";
+overviewPicture = "odin.paa";
