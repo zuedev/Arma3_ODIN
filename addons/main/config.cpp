@@ -20,5 +20,9 @@ class CfgFunctions {
             file = "\z\ODIN\addons\main\functions\ordinance";
             class 155mm_HE {};
         };
+        class intel {
+            file = "\z\ODIN\addons\main\functions\intel";
+            class getSidePositions {};
+        };
     };
 };
