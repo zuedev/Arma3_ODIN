@@ -13,9 +13,12 @@ class CfgPatches {
 class CfgFunctions {
     class ODIN {
         class unsorted {
-            class ping {
-                file = "\z\ODIN\addons\main\functions\ping.sqf";
-            };
+            file = "\z\ODIN\addons\main\functions\unsorted";
+            class ping {};
+        };
+        class ordinance {
+            file = "\z\ODIN\addons\main\functions\ordinance";
+            class 155mm_HE {};
         };
     };
 };
