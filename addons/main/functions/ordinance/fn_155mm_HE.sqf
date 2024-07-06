@@ -1,15 +1,16 @@
 /*
- * Drops a 155mm HE shell at a target location
- *
- * Arguments:
- * 0: ARRAY - Position to drop the shell at
- *
- * Returns:
- * Nothing
- *
- * Example:
- * [position player] call ODIN_fnc_155mm_HE;
- */
+    Description:
+    Drops a 155mm HE shell at a target location.
+
+    Parameters:
+    Select 0 - ARRAY: Position to drop the shell at.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	[position player] call ODIN_fnc_155mm_HE;
+*/
 
 params ["_pos"];
 

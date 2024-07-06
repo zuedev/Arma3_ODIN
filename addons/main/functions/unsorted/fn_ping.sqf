@@ -1,15 +1,16 @@
 /*
- * Hints "pong" to the player along with the current time.
- *
- * Arguments:
- * None
- *
- * Returns:
- * Nothing
- *
- * Example:
- * [] call ODIN_fnc_ping;
- */
+    Description:
+    Hints "pong" to the player along with the current time.
+
+    Parameters:
+	None.
+
+    Returns:
+	Nothing.
+
+    Examples:
+	[] call ODIN_fnc_ping;
+*/
 
 _time = time;
 
