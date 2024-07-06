@@ -12,17 +12,9 @@ class CfgPatches {
 
 class CfgFunctions {
     class ODIN {
-        class unsorted {
-            file = "\z\ODIN\addons\main\functions\unsorted";
-            class ping {};
-        };
         class ordinance {
             file = "\z\ODIN\addons\main\functions\ordinance";
-            class 155mm_HE {};
-        };
-        class intel {
-            file = "\z\ODIN\addons\main\functions\intel";
-            class getSidePositions {};
+            class fireOnEnemies {};
         };
     };
 };
