@@ -9,6 +9,8 @@ exclude = [
     ".gitattributes",
     ".gitignore",
     "odin.png",
+    "scripts",
+    "steam",
 ]
 include = [
     "odin.paa",
